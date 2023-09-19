@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@0;1&family=Roboto:ital,wght@0,500;1,400&display=swap');
+:root {
+    --green: #6ed198;
+    --themecolor: #877a78;
 
-var them {
-    --themecolor: 788778;
-}
+  }
 
 .navbar {
-    background-color: #788778;
+    background-color: var(--themecolor);
     position: fixed;
 }
 
@@ -38,16 +39,23 @@ var them {
 }
 
 .Logos {
-    height:350px ;
-    padding: 10px;
-    background-color: #788778;
+    height:450px ;
+    padding: 5px;
+    background-color: var(--themecolor);
     color: white;    
 }
-:root {
-    --green: #6ed198;
-  }
-.Logos b {
-    color: #6ed198;
+.Logos b{
+    color: var(--green);
+}
+
+.Events{
+    height:350px ;
+    padding: 10px;
+    background-color: var(--themecolor);
+    color: white;  
+}
+.Events b{
+    color: var(--green);
 }
 .col {
     margin: 30px;
